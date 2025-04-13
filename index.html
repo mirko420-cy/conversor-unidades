@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conversor de Unidades</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧮 Conversor de Unidades</h1>
+  
+  <div class="conversor">
+    <input type="number" id="valor" placeholder="Valor a convertir" />
+    
+    <select id="unidad-origen">
+      <option value="kg">Kilogramos (kg)</option>
+      <option value="m">Metros (m)</option>
+      <option value="celsius">Celsius (°C)</option>
+      <!-- Agregar más unidades -->
+    </select>
+    
+    <span> a </span>
+    
+    <select id="unidad-destino">
+      <option value="lbs">Libras (lbs)</option>
+      <option value="cm">Centímetros (cm)</option>
+      <option value="fahrenheit">Fahrenheit (°F)</option>
+      <!-- Agregar más unidades -->
+    </select>
+    
+    <button id="convertir">Convertir</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
